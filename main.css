@@ -257,6 +257,27 @@ button:hover {
     width: 40%;
     height: 100%;
     background-color: green;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.models-details-contents{
+    background-color: yellow;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    /* align-items: center; */
+    line-height: 30px;
+    height: 60%;
+}
+
+.models-details-header{
+    line-height: 60px;
+}
+
+.models-title{
+    color: red;
 }
 
 .models-right{
