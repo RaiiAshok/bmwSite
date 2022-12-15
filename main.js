@@ -12,10 +12,10 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
     // side indicators buttons
-    // navigation: {
-    //   nextEl: ".swiper-button-next",
-    //   prevEl: ".swiper-button-prev",
-    // },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
   });
     
 
