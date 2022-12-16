@@ -30,13 +30,19 @@ button {
     color: white;
 }
 
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 button:hover {
     cursor: pointer;
 }
 
 .models-header, .featured-header, .news-header{
     color: black;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     /* height: 10%; */
     width: 90%;
     margin: 0 auto; 
@@ -61,14 +67,15 @@ button:hover {
 }
 
 .first-page {
-    /* background-color: aqua; */
-    background-color: black;
     width: 100vw;
     height: 100vh;
+    background-color: black;
+    /* background-image: url(/images/img17.jpg) ; */
+    /* background-size: 100% 100%; */
+    /* background: linear-gradient(to right, rgba(255, 122, 89,1), rgba(255, 122, 89,0)); */
 }
 
 .header {
-    /* background-color: green; */
     /* display: ; */
     width: 100%;
     height: 15%;
@@ -80,8 +87,6 @@ button:hover {
     width: 90%;
     height: 18%;
     margin: 0 auto;
-    /* background-color: coral; */
-    /* background-color: black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,8 +96,6 @@ button:hover {
 }
 
 .lower-header {
-    /* background-color: darkorange; */
-    /* background-color: black; */
 
     width: 90%;
     height: 82%;
@@ -105,8 +108,6 @@ button:hover {
 }
 
 .logo {
-    /* background-color: aqua; */
-    /* background-color: black; */
     padding: 2px;
     display: flex;
     align-items: center;
@@ -118,8 +119,6 @@ button:hover {
 }
 
 .navbar {
-    /* background-color:bisque; */
-    /* background-color: black; */
     width: 45%;
     display: flex;
     justify-content: space-between;
@@ -127,8 +126,6 @@ button:hover {
 }
 
 .content {
-    /* background-color:red; */
-    /* background-color: black; */
     height: 84%;
     width: 70%;
     margin: 0 auto;
@@ -141,7 +138,6 @@ button:hover {
 }
 
 .content-buttons {
-    /* background-color: blue; */
     margin-top: 50px;
     width: 23%;
     display: flex;
@@ -160,7 +156,6 @@ button:hover {
 .second-page{
     width: 100vw;
     height: 100vh;
-    /* background-color: rgb(29, 14, 53); */
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -172,14 +167,12 @@ button:hover {
 .models-details{
     width: 40%;
     height: 88%;
-    /* background-color: green; */
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
 }
 
 .models-details-contents{
-    /* background-color: yellow; */
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -207,7 +200,7 @@ button:hover {
 .models-right{
     width: 55%;
     height: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
 
 }
 
@@ -221,14 +214,14 @@ button:hover {
 }
 
 .first {
-    background-color: aqua;
+    /* background-color: aqua; */
     grid-column: 1 /2;
     grid-row: 1/2;
     
 }
 
 .second {
-    background-color: palegreen;
+    /* background-color: palegreen; */
     grid-column: 1 /2;
     grid-row: 1/2;
     
@@ -238,14 +231,15 @@ button:hover {
 .third {
     grid-column: 1 /2;
     grid-row: 1/2;
-    background-color: blue;
+    /* background-color: blue; */
     
 }
+
 
 .change-indicators {
     position: absolute;
     right: 0px;
-    background-color:rgb(161, 155, 155);
+    /* background-color:rgb(161, 155, 155); */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -297,7 +291,6 @@ button:hover {
 .models-images {
     display: grid;
     height: 80%;
-    /* background-color: white; */
 }
 
 /* swiperJs */
@@ -306,16 +299,18 @@ button:hover {
 .swiper{
     width: 90%; 
     height: 70%;
-    background-color: mediumspringgreen;
+    /* background-color: mediumspringgreen; */
 }
 
 .available-slide{
-    /* background-color: red; */
     width: 90vw;
     display: flex;
     justify-content: space-between;
     position: relative;
 }
+
+/* border */
+
 
 /* .swiper-slide {
     text-align: center;
@@ -348,7 +343,7 @@ button:hover {
 /* -------------------------- */
 /* third Page */
 .third-page{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -358,14 +353,14 @@ button:hover {
 }
 
 .swiper-slide-featured{
-    background-color: rgb(75, 90, 86);
+    /* background-color: rgb(75, 90, 86); */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .featured-items-containers{
-    background-color: rgb(173, 162, 183);
+    /* background-color: rgb(173, 162, 183); */
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4%;
@@ -376,8 +371,8 @@ button:hover {
 }
 
 .featured-items{
-    border: 1px solid;
-    background-color: chartreuse;
+    /* border: 1px solid; */
+    /* background-color: chartreuse; */
     height: 100%;
     display: flex;
     flex-flow: column;
@@ -388,17 +383,17 @@ button:hover {
 }
 
 figure{
-    background-color: darkslategrey;
+    /* background-color: darkslategrey; */
 }
 
 .featured-items > img{
     height: 70%;
     width: 100%;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .featured-items > figcaption{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     /* position: absolute; */
     /* bottom: 0px; */
     width: 100%;
@@ -410,7 +405,7 @@ figure{
 /* --------------------------------- */
 /* forth Page */
 .forth-page{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -420,14 +415,14 @@ figure{
 }
 
 .swiper-slide-news{
-    background-color: rgb(75, 90, 86);
+    /* background-color: rgb(75, 90, 86); */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .news-items-containers{
-    background-color: rgb(173, 162, 183);
+    /* background-color: rgb(173, 162, 183); */
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4%;
@@ -438,8 +433,8 @@ figure{
 }
 
 .news-items{
-    border: 1px solid;
-    background-color: chartreuse;
+    /* border: 1px solid; */
+    /* background-color: chartreuse; */
     height: 100%;
     /* position: relative; */
     display: flex;
@@ -452,11 +447,11 @@ figure{
     height: 70%;
     width: 100%;
 
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .news-items > figcaption{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     /* position: absolute; */
     /* bottom: 15%; */
     width: 100%;
@@ -472,3 +467,65 @@ figure{
     width: 35%;
     
 }
+
+/* -------------------------------------------- */
+/* fifth page */
+.fifth-page{
+    /* background-color: aqua; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.subscription-container{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscription{
+    height: 75%;
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.subscription > input,textarea{
+    line-height: 35px;
+    border: none;
+    background-color: rgb(209, 227, 227);
+
+    border-radius: 5px;
+
+}
+
+.map{
+    width: 48%;
+    height: 80%;
+    /* box-shadow: 5px 10px #888888; */
+    border: none;
+    border-radius: 5px;
+
+    box-shadow: 2px 3px 5px 5px #fff;
+    
+}
+
+.map>iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.subscription-submit{
+    background-color: red;
+    width: 20%;
+}
+
