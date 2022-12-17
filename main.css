@@ -33,7 +33,9 @@ button {
 img{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: fill;
+    /* border-radius: 20px; */
+    /* border-radius: 15px 50px; */
 }
 
 button:hover {
@@ -95,6 +97,11 @@ button:hover {
     /* align-items: flex-end; */
 }
 
+.clock{
+    /* background-color: wheat; */
+    color: white;
+}
+
 .lower-header {
 
     width: 90%;
@@ -116,6 +123,8 @@ button:hover {
 
 .logo img {
     width: 100%;
+    height: 80%;
+    /* background-color: gray; */
 }
 
 .navbar {
@@ -160,6 +169,7 @@ button:hover {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -200,7 +210,27 @@ button:hover {
 .models-right{
     width: 55%;
     height: 100%;
+    /* border-radius: 5%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     /* background-color: yellow; */
+
+}
+
+
+.models-images {
+    margin-top: 50px;
+    display: grid;
+    width: 80%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 80%;
+    border-radius: 20px 20px;
+    background-color: rebeccapurple;
+    overflow: hidden;
+    /* box-shadow: 0 0 5px 5px; */
+    box-shadow: -1px 3px 40px 1px;
 
 }
 
@@ -288,10 +318,6 @@ button:hover {
     transform: scale(110%, 110%);
 }
 
-.models-images {
-    display: grid;
-    height: 80%;
-}
 
 /* swiperJs */
 
@@ -306,37 +332,9 @@ button:hover {
     width: 90vw;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    /* position: relative; */
 }
 
-/* border */
-
-
-/* .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-} */
-
-/* .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
 
 
 
@@ -344,6 +342,7 @@ button:hover {
 /* third Page */
 .third-page{
     /* background-color: aquamarine; */
+    background-color:#f1f3f4;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -362,12 +361,13 @@ button:hover {
 .featured-items-containers{
     /* background-color: rgb(173, 162, 183); */
     display:grid;
+    /* align-items: center; */
     grid-template-columns: repeat(3, 1fr);
     gap: 4%;
     height: 80%;
     width: 90%;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
 }
 
 .featured-items{
@@ -378,17 +378,20 @@ button:hover {
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
+    /* justify-content: center; */
+    border-radius: 10px;
     /* position: relative; */
 
 }
 
-figure{
-    /* background-color: darkslategrey; */
-}
 
 .featured-items > img{
+    margin-top: 4px;
     height: 70%;
-    width: 100%;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: -1px 3px 10px 1px gray;
+
     /* background-color: pink; */
 }
 
@@ -397,7 +400,7 @@ figure{
     /* position: absolute; */
     /* bottom: 0px; */
     width: 100%;
-    height: 28%;
+    /* height: 28%; */
     text-align: center;
     /* margin-top: 0; */
 }
@@ -441,12 +444,14 @@ figure{
     flex-flow: column wrap;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .news-items >img{
     height: 70%;
-    width: 100%;
-
+    width: 80%;
+    box-shadow: -1px 3px 10px 1px gray;
+    border-radius: 10px;
     /* background-color: pink; */
 }
 
@@ -472,6 +477,7 @@ figure{
 /* fifth page */
 .fifth-page{
     /* background-color: aqua; */
+    background-color:#f1f3f4;
 
     display: flex;
     justify-content: space-between;
@@ -512,9 +518,9 @@ figure{
     height: 80%;
     /* box-shadow: 5px 10px #888888; */
     border: none;
-    border-radius: 5px;
-
-    box-shadow: 2px 3px 5px 5px #fff;
+    /* border-radius: 5px; */
+    /* background-color: green; */
+    /* box-shadow: 2px 3px 5px 5px #fff; */
     
 }
 
@@ -522,6 +528,8 @@ figure{
     width: 100%;
     height: 100%;
     object-fit: contain;
+    border-radius: 10px;
+
 }
 
 .subscription-submit{
@@ -529,3 +537,78 @@ figure{
     width: 20%;
 }
 
+
+
+/* ------------------------------------ */
+/* sixth page */
+
+.sixth-page{
+    /* background-color:#f1f3f4; */
+    height: 40vh;
+    
+}
+
+.sixth-page-container{
+    /* background-color: gray; */
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-size: 12px;
+}
+
+.short-info{
+    /* background-color: green; */
+    width: 30%;
+    /* height: 80%; */
+}
+
+.contact{
+    /* background-color: green; */
+
+    width: 15%;
+
+}
+
+.opening-hours{
+    /* background-color: green; */
+
+    width: 25%;
+}
+.social-media{
+    /* background-color: green; */
+
+    width: 12%;
+}
+
+
+
+.contact>a{
+    color: black;
+
+}
+
+.company-logo{
+    width: 40%;
+    
+}
+
+.company-logo>img{
+    width: 100%;
+}
+
+.contact{
+    display: flex;
+    flex-flow: column;
+    /* align-items: ; */
+    /* justify-content: space-around; */
+}
+
+.social-media  i{
+    width: 30px;
+    font-size: 22px;
+    color: black;
+}
